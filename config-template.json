@@ -1,0 +1,26 @@
+{
+  "prefix": "~",
+  "token": "<app-token>",
+  "permissions": "3088",
+  "application_id": "<application-id>",
+  "owner_ids": [
+    <owner-id>
+  ],
+  "ursus_time": {
+    "time_format": "%I:%M %p",
+    "time_zone": "America/New_York",
+    "intervals": [
+        {
+            "start_time": "9:00 PM",
+            "end_time": "1:00 AM"
+        },
+        {
+            "start_time": "2:00 PM",
+            "end_time": "6:00 PM"            
+        }
+    ],
+    "voice_channel_id": <channel-id>
+  },
+  "react_to_users": [
+  ]
+}
